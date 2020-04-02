@@ -1,8 +1,7 @@
 def count_strings(array)
    array.count do |some|
-     some.strip
+     some.strip?
   end
-       
 end
 
 def count_empty_strings(array)
