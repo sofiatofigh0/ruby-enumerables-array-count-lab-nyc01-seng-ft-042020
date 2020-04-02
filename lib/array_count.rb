@@ -1,6 +1,6 @@
 def count_strings(array)
    array.count do |some|
-     some.strip?
+     some.String?
   end
 end
 
